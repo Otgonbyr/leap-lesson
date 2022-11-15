@@ -1,0 +1,48 @@
+body {
+  background-color: bisque;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+@media screen and (max-width: 2300px) {
+  h1 {
+    font-size: 100px;
+  }
+  li {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: yellow;
+  }
+  header {
+    display: block;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: orange;
+  }
+  ul {
+    display: block;
+  }
+  li {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
