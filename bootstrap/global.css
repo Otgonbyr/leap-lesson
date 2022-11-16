@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  max-width: 1680px;
+  width: 100%;
+}

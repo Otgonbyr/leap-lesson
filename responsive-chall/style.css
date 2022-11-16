@@ -6,12 +6,10 @@ body {
   max-width: 100%;
   height: auto;
 }
-header img {
-  max-width: 100%;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-position: cover;
-  margin: 0%;
+header {
+  background-color: aquamarine;
+  width: 100%;
+  margin: 0;
 }
 div {
   display: flex;
@@ -19,8 +17,4 @@ div {
   height: 300px;
   margin: 10px;
   background-color: aqua;
-}
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
 }
