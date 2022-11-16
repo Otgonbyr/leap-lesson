@@ -24,43 +24,44 @@ header .button {
   header .button {
     width: 50%;
   }
-  .header .menu {
+  header .menu {
     background-color: aquamarine;
     width: 100%;
     order: 1;
   }
 }
-.titles {
-  margin: 30px;
+.mainblogs {
+  width: 1280px;
+  display: flex;
 }
 .titles img {
-  border-radius: 20px;
   width: 300px;
   height: 300px;
-  display: flex;
-  align-items: center;
-}
-.cat {
-  background-color: aqua;
-  width: 350px;
-  border-radius: 30px;
-}
-.leftbar {
-  max-width: 400px;
-  background-color: antiquewhite;
-  width: 50%;
-}
-.leftbar img {
-  border-radius: 30px;
-  width: 300px;
+  border-radius: 20px;
 }
 .main {
   display: flex;
+}
+.poster {
   background-color: antiquewhite;
-  max-width: 1000px;
-  width: 100%;
 }
 .poster img {
-  width: 500px;
-  height: 400px;
+  width: 300px;
+  float: left;
+}
+.poster p {
+  font-size: 20px;
+}
+.leftbar {
+  background-color: aqua;
+  padding: 50px;
+  margin: 40px;
+}
+.leftbar img {
+  border-radius: 20px;
+}
+.cat {
+  background-color: aqua;
+  padding: 50px;
+  margin: 20px;
 }
