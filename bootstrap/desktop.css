@@ -30,6 +30,11 @@ header .button {
     order: 1;
   }
 }
+.main {
+  background-color: rgb(175, 27, 27);
+  width: 100%;
+  max-width: 1000px;
+}
 .mainblogs {
   width: 1280px;
   display: flex;
@@ -39,7 +44,7 @@ header .button {
   height: 300px;
   border-radius: 20px;
 }
-.main {
+.rightside {
   display: flex;
 }
 .poster {
@@ -64,4 +69,8 @@ header .button {
   background-color: aqua;
   padding: 50px;
   margin: 20px;
+}
+.settings {
+  width: 70%;
+  background-color: gray;
 }
