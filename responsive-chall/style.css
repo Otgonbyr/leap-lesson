@@ -2,19 +2,14 @@
   box-sizing: border-box;
 }
 body {
-  width: 1600px;
   max-width: 100%;
+  width: 1350px;
   height: auto;
 }
-header {
-  background-color: aquamarine;
-  width: 100%;
-  margin: 0;
-}
-div {
+header{
   display: flex;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  background-color: aqua;
+  justify-content: center;
+  background: url(images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: co;
 }
